@@ -1,0 +1,10 @@
+#Tue Mar 09 12:19:11 CET 2021
+ct=server
+a=detect
+c=1
+s=0
+d=1615288751472
+v=3.9.104
+cmp=server
+cl=org.jboss.ide.eclipse.as.wildfly.210
+l=Server Runtime ID
