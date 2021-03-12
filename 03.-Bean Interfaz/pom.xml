@@ -5,4 +5,17 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Interfaz</name>
   <description>llamadas a bean por Interfaz y bien referenciado</description>
+  
+  <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.0.8.RELEASE</version>
+		</dependency>
+
+	
+
+
+	</dependencies>
 </project>

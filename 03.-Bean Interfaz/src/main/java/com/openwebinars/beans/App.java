@@ -12,16 +12,16 @@ public class App {
 		
 		Saludator saludador = null;
 		
-		// 1. getBean con Id y casting
-		//saludador = (Saludator) appContext.getBean("saludator");
+	
 		
-		// 2. getBean con ID y tipo. para ejecutar o comrobar esta forma descomentar <constructor-arg en el bean del archivo beans.xml
-		saludador = appContext.getBean("saludator",Saludator.class);
+		//refereniando un bean mediante una clase
+		EmailService emailService = appContext.getBean(EmailService.class);
+		emailService.enviarEmailSaludo("jfmora@audifilm.com");
 		
-		// 3. getBean con tipo, sabiendo que el bean no esta repetido
-		//saludador = appContext.getBean(Saludator.class);
-		System.out.println(saludador.saludo() + "\n\n");
-		
+		//refereniando un bean mediante una interface
+		IEmailService emailService2; // = null en el ejemplo del video
+		emailService2 =appContext.getBean(IEmailService.class);
+		emailService2.enviarEmailSaludo("jfmora@audifilm.com");
 		
 		((ClassPathXmlApplicationContext) appContext).close();
 	}
