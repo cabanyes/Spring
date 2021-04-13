@@ -1,6 +1,0 @@
-package com.openwebinars.beans;
-
-public interface IemailService {
-	
-	public void enviarEmailSaludo(String str);
-}

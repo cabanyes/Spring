@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\eclipsews3\Spring_proves\src\main\resources\beans.xml"/>
+			<item value="C:\eclipsews3\PrimerEjemplo\src\main\java\com\openwebinars\beans\App.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,6 +15,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -46,10 +49,10 @@
 			<item value="com.openwebinars"/>
 		</list>
 		<list key="name">
-			<item value="PrimerEjemplo"/>
+			<item value="MovieAdvisor"/>
 		</list>
 		<list key="artifactId">
-			<item value="PrimerEjemplo"/>
+			<item value="MovieAdvisor"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="emailService"
-		class="com.openwebinars.beans.EmailService" scope = "singleton">
+		class="com.openwebinars.beans.EmailService" scope = "prototype">
 		
 		<property name="saludator" ref="saludator"></property>
 	</bean>
