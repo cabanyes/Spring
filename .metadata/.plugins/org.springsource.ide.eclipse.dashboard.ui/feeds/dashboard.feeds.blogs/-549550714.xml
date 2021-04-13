@@ -5,7 +5,22 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-04-09T03:37:00Z</updated>
+  <updated>2021-04-13T11:47:00Z</updated>
+  <entry>
+    <title>Spring Framework 5.3.6 and 5.2.14 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/04/13/spring-framework-5-3-6-and-5-2-14-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2021-04-13:4410</id>
+    <updated>2021-04-13T11:47:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;5.3.6&lt;/code&gt; and &lt;code&gt;5.2.14&lt;/code&gt; are available now.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;5.3.6&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.6"&gt;19 fixes and improvements&lt;/a&gt;. Spring Framework &lt;code&gt;5.2.14&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.2.14.RELEASE"&gt;11 selected fixes and improvements&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Stay tuned for follow-up Spring Boot releases later this week.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.6/spring-framework-reference"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>A Bootiful Podcast: Ambassador Labs devrel director, InfoQ contributor, lifelong learner, and awesome human, and friend Daniel Bryant</title>
     <link rel="alternate" href="https://spring.io/blog/2021/04/08/a-bootiful-podcast-ambassador-labs-devrel-director-infoq-contributor-lifelong-learner-and-awesome-human-and-friend-daniel-bryant" />
@@ -869,46 +884,6 @@ cloud.aws.rds.instances[0].username=user
 &lt;p&gt;2.2.x, being a part of the Hoxton release train, will continue to be maintained in the &lt;a href="https://github.com/spring-cloud/spring-cloud-aws/"&gt;original Spring Cloud repository&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#who-is-behind-spring-cloud-aws" class="anchor" name="who-is-behind-spring-cloud-aws"&gt;&lt;/a&gt;Who Is Behind Spring Cloud AWS?&lt;/h2&gt;
 &lt;p&gt;Spring Cloud AWS is a community project with &lt;a href="https://twitter.com/maciejwalkowiak"&gt;Maciej Walkowiak&lt;/a&gt;, &lt;a href="https://twitter.com/EdduMelendez"&gt;Eddú Meléndez&lt;/a&gt;, and &lt;a href="https://twitter.com/MatejNedic1"&gt;Matej Nedic&lt;/a&gt; in the Core Team. We are more than happy to take contributions from the community. In the near future, we are going to update contributing guidelines and publish the roadmap for Spring Cloud 3.0.&lt;/p&gt;
 &lt;p&gt;Stay tuned. &lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tools 4.10.0 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/03/17/spring-tools-4-10-0-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Martin Lippert</name>
-    </author>
-    <id>tag:spring.io,2021-03-17:4387</id>
-    <updated>2021-03-17T18:46:00Z</updated>
-    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
-&lt;p&gt;I am happy to announce the 4.10.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.&lt;/p&gt;&lt;h4&gt;&lt;a href="#major-changes-to-the-spring-tools-4-for-eclipse-distribution" class="anchor" name="major-changes-to-the-spring-tools-4-for-eclipse-distribution"&gt;&lt;/a&gt;major changes to the Spring Tools 4 for Eclipse distribution&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;updated to Eclipse 2021-03 release&lt;/li&gt;
-&lt;/ul&gt;&lt;h4&gt;&lt;a href="#reminder" class="anchor" name="reminder"&gt;&lt;/a&gt;reminder&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;the Eclipse-based distribution of the Spring Tools 4 requires a JDK11 (or newer) to run on&lt;/li&gt;
-  &lt;li&gt;ships with an embedded JDK15 runtime, no need to install or configure a specific JDK to run the IDE on anymore&lt;/li&gt;
-&lt;/ul&gt;&lt;h4&gt;&lt;a href="#additional-changes" class="anchor" name="additional-changes"&gt;&lt;/a&gt;additional changes&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; enhancement: &lt;code&gt;.sts4&lt;/code&gt; dir location now configurable (&lt;a href="https://github.com/spring-projects/sts4/issues/601"&gt;#601&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: sometimes live hovers do not disappear (&lt;a href="https://github.com/spring-projects/sts4/issues/609"&gt;#609&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: debugger didn&amp;rsquo;t connect automatically to apps deployed to docker from the boot dashboard&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: STS 4.8.0 template proposals invalid (&lt;a href="https://github.com/spring-projects/sts4/issues/579"&gt;#579&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: Fresh sts-4.9.0 starts with errors - no way to add Task repository (&lt;a href="https://github.com/spring-projects/sts4/issues/606"&gt;#606&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: Error on installing Mylyn JIRA Connector in STS 4.9.0 (&lt;a href="https://github.com/spring-projects/sts4/issues/599"&gt;#599&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: Duplicate com.sun.xml.bind installed screw other plugins (&lt;a href="https://github.com/spring-projects/sts4/issues/588"&gt;#588&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; update: remove WTP-based HTML tooling from Spring Tools 4 distribution (&lt;a href="https://github.com/spring-projects/sts4/issues/572"&gt;#572&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(CF Manifest)&lt;/em&gt; fixed: Error writing config: &lt;code&gt;rename ~\.cf\temp-config025076595 ~\.cf\config.json: Access is denied.&lt;/code&gt; (&lt;a href="https://github.com/spring-projects/sts4/issues/577"&gt;#577&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(OpenVSX)&lt;/em&gt; fixed: the Spring extensions are back on the OpenVSX marketplace (&lt;a href="https://github.com/spring-projects/sts4/issues/583"&gt;#583&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Concourse)&lt;/em&gt; improvement: Add display property to pipeline schema (&lt;a href="https://github.com/spring-projects/sts4/pull/607"&gt;#607&lt;/a&gt;) - contributed by &lt;a href="https://github.com/jghiloni"&gt;@jghiloni&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring Tools 4: &lt;a href="https://spring.io/tools/"&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2021-03-17-4100-release-incl-language-servers-version-1250"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2021-03-17-4100-release-incl-language-servers-version-1250&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Spring Tools 4.10.1 is scheduled to be released in late April 2021.&lt;/p&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
